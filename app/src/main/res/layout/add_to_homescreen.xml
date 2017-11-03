@@ -12,10 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingStart="@dimen/dialogHorizontalPadding"
-        android:paddingEnd="@dimen/dialogHorizontalPadding"
-        android:paddingTop="16dp"
-        android:paddingBottom="10dp">
+        android:padding="16dp">
 
         <ImageView
             android:id="@+id/homescreen_icon"
@@ -28,9 +25,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:backgroundTint="@color/dialogAccent"
+            android:backgroundTint="@color/add_to_homescreen_button_text"
             android:inputType="text"
-            android:paddingStart="10dp"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="@color/add_to_homescreen_text"
             android:textColorHighlight="@color/colorAccent"
@@ -59,9 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAllCaps="true"
-            android:textColor="@color/dialogAccent"
-            android:textSize="14sp"
-            android:fontFamily="@string/font_roboto_medium" />
+            android:textColor="@color/download_dialog_text" />
 
         <Button
             android:id="@+id/addtohomescreen_dialog_add"
@@ -70,9 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:textAllCaps="true"
-            android:textColor="@color/dialogAccent"
-            android:textSize="14sp"
-            android:fontFamily="@string/font_roboto_medium" />
+            android:textColor="@color/download_dialog_text" />
     </LinearLayout>
 
 
@@ -83,8 +77,8 @@
         android:background="#ff262626"
         android:orientation="horizontal"
         android:paddingBottom="16dp"
-        android:paddingEnd="@dimen/dialogHorizontalPadding"
-        android:paddingStart="@dimen/dialogHorizontalPadding"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
         android:paddingTop="16dp"
         android:visibility="gone">
 
@@ -101,9 +95,8 @@
             android:background="#ff262626"
             android:paddingStart="10dp"
             android:text="@string/dialog_addtohomescreen_tracking_protection"
-            android:textColor="#66ffffff"
-            android:textSize="12sp"
-            android:fontFamily="@string/font_roboto_regular" />
+            android:textColor="#ff8b8b8b"
+            android:textSize="12sp" />
     </LinearLayout>
 
 </LinearLayout>

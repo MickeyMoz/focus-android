@@ -29,11 +29,6 @@
     <color name="colorSheetSessionBackground">#fff9f9fa</color>
     <color name="colorSheetSessionBackgroundPressed">#ffededf0</color>
 
-    <color name="colorDotHighlight">@color/photonBlue40</color>
-
-    <color name="colorMenuBackground">#414141</color>
-    <color name="colorMenuBackgroundDark">#272727</color>
-
     <color name="colorCursor">#ccffffff</color>
 
     <color name="colorOverlay">#cc000000</color>
@@ -42,22 +37,20 @@
 
     <color name="snackbarBackground">#FF414146</color>
     <color name="snackbarTextColor">#ffffffff</color>
-    <color name="snackbarActionText">@color/photonBlue50</color>
 
     <color name="searchHintTextColor">#ffffffff</color>
 
     <color name="onboarding_indicator_default">#7FFFFFFF</color>
     <color name="onboarding_indicator_selected">#FFFFFFFF</color>
 
-    <color name="dialogAccent">@color/photonBlue50</color>
+    <color name="download_dialog_text">@color/photonBlue50</color>
 
     <color name="colorSession">#272727</color>
     <color name="colorAction">@color/photonBlue50</color>
 
-    <color name="add_to_homescreen_text">#B3FFFFFF</color>
+    <color name="add_to_homescreen_button_text">@color/photonBlue50</color>
+    <color name="add_to_homescreen_text">#FFFFFF</color>
     <color name="add_to_homescreen_icon_background">#4C0074</color>
 
     <color name="firefoxInstallHint">@color/photonMagenta70</color>
-
-    <color name="preference_row_selected">#414146</color>
 </resources>
