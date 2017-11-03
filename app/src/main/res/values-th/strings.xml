@@ -5,11 +5,12 @@
   <string name="urlbar_hint">ค้นหาหรือป้อนที่อยู่</string>
   <string name="teaser">การท่องเว็บแบบส่วนตัวอัตโนมัติ\nท่องเว็บ ล้าง ทำซ้ำ</string>
   <string name="feedback_erase">ล้างประวัติการท่องเว็บของคุณแล้ว</string>
-  <string name="search_hint">ค้นหาสำหรับ %1$s</string>
+  <string name="search_hint">ค้นหา %1$s</string>
   <string name="menu_share">แบ่งปัน…</string>
   <string name="menu_open_with_default_browser">เปิดด้วย %1$s</string>
   <string name="menu_open_with_a_browser">เปิดด้วย…</string>
   <string name="menu_add_to_home_screen">เพิ่มไปยังหน้าจอหลัก</string>
+  <string name="menu_whats_new">มีอะไรใหม่</string>
   <string name="menu_settings">การตั้งค่า</string>
   <string name="menu_about">เกี่ยวกับ</string>
   <string name="menu_help">ช่วยเหลือ</string>
@@ -30,10 +31,13 @@
   <string name="preference_dialog_title_search_engine">การค้นหาเริ่มต้น</string>
   <string name="preference_category_privacy">ความเป็นส่วนตัว</string>
   <string name="preference_privacy_block_ads">ปิดกั้นตัวติดตามของโฆษณา</string>
+  <string name="preference_privacy_block_ads_summary">โฆษณาบางตัวติดตามการเยี่ยมชมไซต์ แม้ว่าคุณไม่ได้คลิกโฆษณา</string>
   <string name="preference_privacy_block_analytics">ปิดกั้นตัวติดตามของการวิเคราะห์</string>
+  <string name="preference_privacy_block_analytics_summary">ใช้เพื่อเก็บรวบรวม วิเคราะห์ และวัดกิจกรรมอย่างการแตะและการเลื่อน</string>
   <string name="preference_privacy_block_social">ปิดกั้นตัวติดตามทางสังคม</string>
+  <string name="preference_privacy_block_social_summary">ฝังอยู่ในไซต์เพื่อติดตามการเยี่ยมชมของคุณและแสดงผลฟังก์ชันอย่างปุ่มแบ่งปัน</string>
   <string name="preference_privacy_block_content">ปิดกั้นตัวติดตามของเนื้อหาอื่น ๆ</string>
-  <string name="preference_privacy_block_content_summary">อาจทำให้วิดีโอและหน้าเว็บบางส่วนไม่สมบูรณ์</string>
+  <string name="preference_privacy_block_content_summary2">การเปิดใช้งานอาจส่งผลให้หน้าบางส่วนทำงานอย่างไม่คาดคิด</string>
   <string name="preference_privacy_secure_mode">พรางตัว</string>
   <string name="preference_privacy_stealth_summary">ซ่อนหน้าเว็บเมื่อสลับแอป</string>
   <string name="preference_category_performance">ประสิทธิภาพ</string>
@@ -47,11 +51,37 @@
   <string name="preference_mozilla_telemetry_summary2">Mozilla มุ่งมั่นที่จะเก็บรวบรวมเฉพาะสิ่งที่เราจำเป็นต้องจัดหาและปรับปรุง %1$s สำหรับทุกคน</string>
   <string name="preference_privacy_notice">ประกาศความเป็นส่วนตัว</string>
   <string name="preference_about">เกี่ยวกับ %1$s</string>
+  <string name="preference_search_installed_search_engines">เครื่องมือค้นหาที่ติดตั้งไว้</string>
+  <string name="preference_search_restore">เรียกคืนเครื่องมือค้นหาเริ่มต้น</string>
+  <string name="preference_search_add2">+ เพิ่มเครื่องมือค้นหาอื่น</string>
+  <string name="preference_search_remove_title">เอาเครื่องมือค้นหาออก</string>
+  <string name="preference_search_remove">เอาออก</string>
+  <string name="tutorial_search_manually_add">เพิ่มด้วยตนเอง</string>
+  <string name="tutorial_search_title">เพิ่มเครื่องมือค้นหา</string>
+  <string name="tutorial_search_step1">1. ไปที่หน้าแรกของเครื่องมือค้นหา</string>
+  <string name="tutorial_search_step2">2. แตะที่ช่องค้นหาของเครื่องมือค้นหา</string>
+  <string name="tutorial_search_step2_alternative">2. กดค้างที่ช่องค้นหาของเครื่องมือค้นหา</string>
+  <string name="tutorial_search_step3">3. แตะไอคอนแว่นขยายด้านบนแป้นพิมพ์เพื่อเพิ่มเครื่องมือค้นหา</string>
+  <string name="action_option_add_search_engine">เพิ่มเครื่องมือค้นหา</string>
+  <string name="tutorial_search_step3_alternative">3. แตะ %1$s</string>
+  <string name="tutorial_search_step4">4. หากคุณไม่เห็นแว่นขยาย ลองเพิ่มเครื่องมือค้นหาด้วยตนเอง</string>
+  <string name="tutorial_search_step4_alternative">4. หากคุณไม่เห็น %1$s ลองเพิ่มเครื่องมือค้นหาด้วยตนเอง</string>
+  <string name="tutorial_search_finish">เริ่มต้นใช้งาน</string>
+  <string name="search_add_hint">แตะไอคอนแว่นขยายด้านบนแป้นพิมพ์เพื่อเพิ่มเครื่องมือค้นหานี้</string>
+  <string name="search_add_manually_name">ชื่อที่จะแสดงผล</string>
+  <string name="search_add_manually_name_hint">ชื่อเครื่องมือค้นหา</string>
+  <string name="search_add_manually_string">สตริงการค้นหาที่จะใช้</string>
+  <string name="search_add_manually_save">บันทึก</string>
+  <string name="search_add_manually_string_hint">วางหรือป้อนสตริงการค้นหา หากจำเป็นให้แทนที่คำค้นหาด้วย: %s</string>
+  <string name="search_add_manually_example">ตัวอย่าง: example.com/search/?q=%s</string>
+  <string name="accessibility_announcement_search">เพิ่มเครื่องมือค้นหา</string>
+  <string name="search_add_confirmation">เพิ่มเครื่องมือค้นหาใหม่แล้ว</string>
+  <string name="search_add_error">ตรวจสอบสตริงการค้นหาและลองอีกครั้ง</string>
   <string name="content_description_clear_input">ล้างข้อมูลที่ป้อน</string>
   <string name="content_description_dismiss_input">ยกเลิก</string>
   <string name="content_description_erase">ล้างประวัติการท่องเว็บ</string>
   <string name="content_description_fab_expand">ขยาย</string>
-  <string name="content_description_tab_counter">แท็บที่เปิด: %1$s</string>
+  <string name="content_description_tab_counter">แท็บที่เปิดอยู่: %1$s</string>
   <string name="content_description_open_tab">เปิดแท็บ</string>
   <string name="content_description_close_tab">ปิดแท็บ</string>
   <string name="content_description_lock">การเชื่อมต่อปลอดภัย</string>
@@ -124,4 +154,5 @@
   <string name="tabs_tray_action_erase">ล้างประวัติการท่องเว็บ</string>
   <string name="download_firefox">ดาวน์โหลด Firefox</string>
   <string name="your_rights_content1">%1$s เป็นซอฟต์แวร์ฟรีและเปิดต้นฉบับที่สร้างขึ้นโดย Mozilla และผู้มีส่วนร่วมอื่น ๆ</string>
+  <string name="your_rights_content2"><![CDATA["%1$s ให้คุณใช้งานภายใต้เงื่อนไขของ "<a xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" href="%2$s">Mozilla Public License</a>" และสัญญาอนุญาตการเปิดต้นฉบับอื่น ๆ"]]></string>
 </resources>

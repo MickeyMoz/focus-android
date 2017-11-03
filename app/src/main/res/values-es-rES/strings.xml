@@ -10,6 +10,7 @@
   <string name="menu_open_with_default_browser">Abrir con %1$s</string>
   <string name="menu_open_with_a_browser">Abrir con…</string>
   <string name="menu_add_to_home_screen">Añadir a pantalla de inicio</string>
+  <string name="menu_whats_new">Novedades</string>
   <string name="menu_settings">Ajustes</string>
   <string name="menu_about">Acerca de</string>
   <string name="menu_help">Ayuda</string>
@@ -30,23 +31,52 @@
   <string name="preference_dialog_title_search_engine">Buscador predeterminado</string>
   <string name="preference_category_privacy">Privacidad</string>
   <string name="preference_privacy_block_ads">Bloquear rastreadores de publicidad</string>
+  <string name="preference_privacy_block_ads_summary">Algunos anuncios, aunque no accedas a ellos, rastrean tus visitas a páginas web</string>
   <string name="preference_privacy_block_analytics">Bloquear rastreadores analíticos</string>
+  <string name="preference_privacy_block_analytics_summary">Se utilizan para recopilar, analizar y medir tus actividades, como cuándo seleccionas algo o te deslizas por la página</string>
   <string name="preference_privacy_block_social">Bloquear rastreadores sociales</string>
+  <string name="preference_privacy_block_social_summary">Incorporados en las páginas para rastrear tus visitas y mostrar funcionalidad, como botones para compartir</string>
   <string name="preference_privacy_block_content">Bloquear rastreadores de otros contenidos</string>
-  <string name="preference_privacy_block_content_summary">Puede interferir con algunos vídeos y páginas web</string>
+  <string name="preference_privacy_block_content_summary2">Si lo activas, puede que algunas páginas no funcionen correctamente</string>
   <string name="preference_privacy_secure_mode">Invisible</string>
   <string name="preference_privacy_stealth_summary">Ocultar páginas web al intercambiar aplicaciones</string>
   <string name="preference_category_performance">Rendimiento</string>
   <string name="preference_performance_block_webfonts">Bloquear fuentes web</string>
   <string name="preference_performance_block_webfonts_summary">Puede hacer que falten iconos o imágenes</string>
   <string name="preference_performance_block_images">Bloquear imágenes</string>
-  <string name="preference_default_browser2">Convierte %1$s en tu navegador predeterminado</string>
+  <string name="preference_default_browser2">Convertir %1$s en tu navegador predeterminado</string>
   <string name="preference_category_mozilla">Mozilla</string>
   <string name="preference_mozilla_telemetry2">Enviar datos de consumo</string>
   <string name="preference_mozilla_telemetry_summary">Descubrir más</string>
   <string name="preference_mozilla_telemetry_summary2">Mozilla se esfuerza por recopilar solo lo necesario para proporcionar y mejorar %1$s para todos.</string>
   <string name="preference_privacy_notice">Aviso de privacidad</string>
   <string name="preference_about">Acerca de %1$s</string>
+  <string name="preference_search_installed_search_engines">Motores de búsqueda instalados</string>
+  <string name="preference_search_restore">Restaurar motores de búsqueda predeterminados</string>
+  <string name="preference_search_add2">+ Añadir otro motor de búsqueda</string>
+  <string name="preference_search_remove_title">Eliminar motores de búsqueda</string>
+  <string name="preference_search_remove">Eliminar</string>
+  <string name="tutorial_search_manually_add">Añadir manualmente</string>
+  <string name="tutorial_search_title">Añadir motor de búsqueda</string>
+  <string name="tutorial_search_step1">1. Ve a la página de inicio del motor de búsqueda.</string>
+  <string name="tutorial_search_step2">2. Selecciona el campo de búsqueda del motor de búsqueda.</string>
+  <string name="tutorial_search_step2_alternative">2. Mantén pulsado el campo de búsqueda del motor de búsqueda.</string>
+  <string name="tutorial_search_step3">3. Selecciona el icono de la lupa, encima del teclado, para agregar el motor de búsqueda.</string>
+  <string name="action_option_add_search_engine">Añadir motor de búsqueda</string>
+  <string name="tutorial_search_step3_alternative">3. Selecciona %1$s</string>
+  <string name="tutorial_search_step4">4. Si no te aparece la lupa, prueba a añadir el motor de búsqueda de forma manual.</string>
+  <string name="tutorial_search_step4_alternative">4. 4. Si no te aparece %1$s, prueba a añadir el motor de búsqueda de forma manual.</string>
+  <string name="tutorial_search_finish">COMENZAR</string>
+  <string name="search_add_hint">Selecciona el icono de la lupa, encima del teclado, para agregar el motor de búsqueda.</string>
+  <string name="search_add_manually_name">Nombre para mostrar</string>
+  <string name="search_add_manually_name_hint">Nombre del motor de búsqueda</string>
+  <string name="search_add_manually_string">Cadena de búsqueda que se usará</string>
+  <string name="search_add_manually_save">Guardar</string>
+  <string name="search_add_manually_string_hint">Pega o escribe la cadena de búsqueda. De ser necesario, reemplaza el término de búsqueda por %s.</string>
+  <string name="search_add_manually_example">Ejemplo: example.com/search/?q=%s</string>
+  <string name="accessibility_announcement_search">Añadir motor de búsqueda</string>
+  <string name="search_add_confirmation">Nuevo motor de búsqueda añadido.</string>
+  <string name="search_add_error">Comprueba la cadena de búsqueda y vuelve a intentarlo</string>
   <string name="content_description_clear_input">Limpiar registro</string>
   <string name="content_description_dismiss_input">Ignorar</string>
   <string name="content_description_erase">Eliminar historial de navegación</string>
@@ -79,18 +109,18 @@
   <string name="download_dialog_action_download">Descargar</string>
   <string name="errorpage_title">Problema al cargar la página</string>
   <string name="errorpage_refresh">Vuelve a intentarlo</string>
-  <string name="error_connectionfailure_title">No se pudo conectar</string>
+  <string name="error_connectionfailure_title">No se puede conectar</string>
   <string name="error_connectionfailure_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n        "<li>Puede que el sitio est&#233; ocupado o no est&#233; disponible temporalmente. Vuelve a intentarlo en unos minutos.</li>"\n        "<li>Si no puedes cargar ninguna p&#225;gina, comprueba la conexi&#243;n de datos o Wi-Fi de tu dispositivo.</li>"\n      "</ul>]]></string>
-  <string name="error_timeout_title">La conexión expiró</string>
-  <string name="error_hostLookup_title">No se encontró el servidor</string>
+  <string name="error_timeout_title">La conexión ha caducado</string>
+  <string name="error_hostLookup_title">Servidor no encontrado</string>
   <string name="error_hostLookup_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n        "<li>"Comprueba que la direcci&#243;n no tiene ning&#250;n error como\n          "<strong>ww</strong>".example.com en vez de\n          "<strong>www</strong>.example.com</li>"\n        "<li>Si no puedes cargar ninguna p&#225;gina, comprueba la conexi&#243;n de datos o Wi-Fi de tu dispositivo.</li>"\n      "</ul>]]></string>
   <string name="error_malformedURI_title">La dirección no es válida</string>
   <string name="error_malformedURI_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>"Las direcciones web se suelen escribir as&#237;: "<strong>http://www.example.com/</strong></li>"\n  "<li>Aseg&#250;rate de usar las barras oblicuas (<strong>/</strong>).</li>\n</ul>]]></string>
   <string name="error_redirectLoop_title">La página no se está redireccionando adecuadamente</string>
   <string name="error_redirectLoop_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>A veces, el problema se produce por desactivar o no aceptar el uso de cookies.</li>\n</ul>]]></string>
-  <string name="error_unsupportedprotocol_title">No se entendió la dirección</string>
+  <string name="error_unsupportedprotocol_title">No se entiende la dirección</string>
   <string name="error_unsupportedprotocol_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Puede que necesites instalar otro software para abrir esta direcci&#243;n.</li>\n</ul>]]></string>
-  <string name="error_sslhandshake_title">Falló la conexión segura</string>
+  <string name="error_sslhandshake_title">Fallo en la conexión segura</string>
   <string name="error_sslhandshake_message"><![CDATA[<ul xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">"\n  "<li>Puede que haya un problema con la configuraci&#243;n del servidor o puede\nque alguien est&#233; intentando suplantar al servidor.</li>"\n  "<li>Si ya te hab&#237;as conectado antes a este servidor sin problemas, puede que el error\nsea temporal y puedes intentarlo m&#225;s tarde.</li>\n</ul>]]></string>
   <string name="error_generic_title">Ups</string>
   <string name="error_generic_message">Por alguna razón, no podemos cargar esta página.</string>
@@ -113,10 +143,10 @@
   <string name="firstrun_skip_button">Saltar</string>
   <string name="firstrun_next_button">Siguiente</string>
   <string name="content_blocking_disabled">-</string>
-  <string name="dialog_addtohomescreen_title">Añadir a pantalla inicio</string>
+  <string name="dialog_addtohomescreen_title">Añadir a la pantalla de inicio</string>
   <string name="dialog_addtohomescreen_action_add">Añadir</string>
   <string name="dialog_addtohomescreen_action_cancel">Cancelar</string>
-  <string name="dialog_addtohomescreen_tracking_protection">El acceso directo se abrirá con protección contra rastreo desactivada</string>
+  <string name="dialog_addtohomescreen_tracking_protection">El acceso directo se abrirá con la protección contra el rastreo desactivada</string>
   <string name="dialog_opentab_title">Abrir enlace en la pestaña seleccionada</string>
   <string name="dialog_opentab_action_open">Abrir</string>
   <string name="notification_browsing_session_channel_name">Sesión de navegación privada</string>
